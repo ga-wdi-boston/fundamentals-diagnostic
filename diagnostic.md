@@ -16,13 +16,15 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+_/Users/grace/wdi/try_
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a platform for collaborating on projects with multiple users,
+including the ability to track and stage changes that provide for
+efficient and accurate version control
 
 ## Question 3
 
@@ -32,7 +34,16 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+```js
+1) (false || true) && (false && true);
+2) (    true     ) && (    false    );
+3) false
+```
+
+the OR set evalutates to true because one of the two is true. the AND set
+evaluates to false because they aren't both true. as a result, the final AND
+set evaluates to false because they aren't both true
+_false_
 
 ## Question 4
 
@@ -45,24 +56,28 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+1) x=1; x=1+1, x=2
+2) x=2; x=2+2, x=4
+3) x=4; x=4+4, x=8
+_the loop will run 3 times, and the final value of x will be 8_
 
 ## Question 5
 
 ```js
 var strangeAdd = function strangeAdd(a, b) {
   if (a > 0 || b > 0) {
-    return a + b;    
+    return a + b;
   }
   return a - b;
 };
 
-var result = add(0, -5);
+var result = strangeAdd(0, -5);
 ```
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+the final value is 5; neither 0 nor -5 is greater than 0, so the function will
+return (0 - -5), which evaluates to +5.
 
 ## Question 6
 
@@ -76,7 +91,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+_a stick of butter_
 
 ## Question 7
 
@@ -91,6 +106,9 @@ var teamMember = {
 };
 ```
 
-What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of `teamMember['name']['surname']`?
+What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?
+Of `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+1) 'exercise'
+2) { given: 'Jason', surname: 'Weeks'}
+3) 'Weeks'
