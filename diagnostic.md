@@ -1,7 +1,7 @@
 ![General Assembly Logo](http://i.imgur.com/ke8USTq.png)
 
 # Diagnostic
-
+l;ala
 ## Question 1
 
 ```sh
