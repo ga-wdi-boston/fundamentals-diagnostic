@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+_/Users/grace/wdi/try_
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+_online repository to help collect and share of git file, which is used for version control.  Version control is like keeping different verison of the same file with with edits._
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+_false. (false||true) return first true value, in this case, it's true. (false&&true) return true only if both items are true, in this case it's false. this make the simply the statment into true && false, which would return false._
 
 ## Question 4
 
@@ -45,14 +45,14 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+_3 times, 8._
 
 ## Question 5
 
 ```js
 var strangeAdd = function strangeAdd(a, b) {
   if (a > 0 || b > 0) {
-    return a + b;    
+    return a + b;
   }
   return a - b;
 };
@@ -62,7 +62,7 @@ var result = add(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+_5.  1st if condition only happen if a>0 or b>0.  this is case neither 0 or -5 is >0.  which which to return a-b.  which give 0 - -5 = 0 +5 = 5._
 
 ## Question 6
 
@@ -76,7 +76,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+_'a stick of butter'_
 
 ## Question 7
 
@@ -93,4 +93,8 @@ var teamMember = {
 
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+_teamMember['hobby'] would give us 'exercise'_
+_teamMember['name'] would give us_
+_given:'Jason'_
+_surname: 'Weeks'_
+_teamMember['name']['surname'] would give us 'Weeks'_
