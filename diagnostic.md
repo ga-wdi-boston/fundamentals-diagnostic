@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/Graces-MacBook-Pro/wdi/try/
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+You can upload and share projects and log changes to the GitHub repository.
 
 ## Question 3
 
@@ -32,7 +32,8 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+False. Because the first parentheses result is true and the second parentheses
+result is false. For "&&" operator result, you need both conditions to be true.
 
 ## Question 4
 
@@ -44,15 +45,14 @@ while (x < 5) {
 ```
 
 How many times does the loop run?  What's the value of `x` after the while loop?
-
-_Replace this text with your answer._
+4 times. The value after while loop is 8.
 
 ## Question 5
 
 ```js
 var strangeAdd = function strangeAdd(a, b) {
   if (a > 0 || b > 0) {
-    return a + b;    
+    return a + b;
   }
   return a - b;
 };
@@ -62,7 +62,9 @@ var result = add(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+-5 is the result value because (0,-5) is false for both conditons in the ||
+operator in the if statement, so javascript will run the next statement return,
+which is a-b.
 
 ## Question 6
 
@@ -76,7 +78,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -92,5 +94,4 @@ var teamMember = {
 ```
 
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of `teamMember['name']['surname']`?
-
-_Replace this text with your answer._
+exercise
