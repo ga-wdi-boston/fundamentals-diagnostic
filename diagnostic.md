@@ -16,13 +16,17 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a tool which (along with git) allows software develpers to save
+their work, save different versions and branches of their work, and allow
+others to contribute to their work without giving up control of the master
+set of documents. It is efficient because it tracks changes to documents
+rather than tracking entirely different documents.
 
 ## Question 3
 
@@ -32,7 +36,9 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+false. The expression will only evaluate to true if both (false || true) AND
+(false && true) would evaluate to true. (false || true) evaluates to true, but
+(false && true) evaluates to false, so the whole expression evaluates to false
 
 ## Question 4
 
@@ -45,24 +51,25 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop will run three times, and afterwards x = 8
 
 ## Question 5
 
 ```js
 var strangeAdd = function strangeAdd(a, b) {
   if (a > 0 || b > 0) {
-    return a + b;    
+    return a + b;
   }
   return a - b;
 };
 
 var result = add(0, -5);
 ```
-
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+//assuming the function "add" is actually "strangAdd"
+//5. The conditional statement will not run, because neither
+//a or b is greater than 0. 0 - (-5) = 0 + 5 = 5
 
 ## Question 6
 
@@ -76,7 +83,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -93,4 +100,6 @@ var teamMember = {
 
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+teamMember['hobby'] = 'exercise'
+teamMember['name'] = { given: 'Jason', surname: 'Weeks' }
+teamMember['name']['surname'] = 'Weeks'
