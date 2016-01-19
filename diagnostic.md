@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a means of keeping track of version control.  It allows you to store a version of your project within different branches or phases of the project.  It's a great way to organize your back ups information.
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+The value of the expression is false.  Reason is because && links both values together so if one fails the whole thing fails.   Given that notion the second expression of the main expression is registering as false.
 
 ## Question 4
 
@@ -45,24 +45,25 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop will run four times because x is equal to 1 and x can't be greater than five.
+The value of x will be five after the loop because five is what triggers the expression to be false.
 
 ## Question 5
 
 ```js
 var strangeAdd = function strangeAdd(a, b) {
   if (a > 0 || b > 0) {
-    return a + b;    
+    return a + b;
   }
   return a - b;
 };
 
-var result = add(0, -5);
+var result = strangeAdd(0, -5);
 ```
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+The value of result would be 5 because both a and b is less than zero so the equation is a - b.   0 - (-5) = 5.
 
 ## Question 6
 
@@ -76,7 +77,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -92,5 +93,6 @@ var teamMember = {
 ```
 
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of `teamMember['name']['surname']`?
-
-_Replace this text with your answer._
+teamMember[hobby] = 'exercise'
+teamMember[name] = {given: 'Jason', surname: 'Weeks'}
+teamMember[name][surname] = 'Weeks'
