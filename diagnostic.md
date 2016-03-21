@@ -16,7 +16,7 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+Stuff goes here. cool stuff. really cool 
 
 ## Question 2
 
