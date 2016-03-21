@@ -16,13 +16,14 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/Benjamski/wdi/fundamentals-diagnostic/diagnostic.md
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+A server used to store copies of files and their changes. To store them or
+share/collaborate with others.
 
 ## Question 3
 
@@ -32,7 +33,9 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+False while the operants are the same (in inverse placement) || (or) and &&(and)
+are different operators. Because there's no == or === I think it doesn't
+evaluate to anything (i think)
 
 ## Question 4
 
@@ -45,7 +48,8 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The value of x is 8, it runs 8 times. while it is less than 5 it adds the value
+of x into itself.
 
 ## Question 5
 
@@ -62,7 +66,8 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+5. a and b are both NOT greater than 0 (0 and -5) so the second return is issued
+which subtracts -5 from 0, evaluating to 5
 
 ## Question 6
 
@@ -76,7 +81,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter' [2] is the third item in an array of 3
 
 ## Question 7
 
@@ -93,4 +98,6 @@ var teamMember = {
 
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+teamMember['hobby'] = 'exercise'
+`teamMember['name'] = 'Jason'
+`teamMember['name']['surname']` = 'Weeks'
