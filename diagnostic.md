@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+_/Users/grace/wdi/try_
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+_A company that mananges Git respositories in the cloud. GitHub is used for developers to track, share, and manages changes to their code. The changes are tracked and stored in respositories._
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+_False. The parenthesis on the left side is false, as '&&' requires BOTH sides are true. On the first parentheis on the right side, the '||' signifies only one side needs to be true. Therefore, after solving the parenthesis, you have the equation'true && false', which is false._
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+_1+1 = 2; 2+2 = 4; 4+4 = 8. The loop will run 3 times, and the value of x after will be 8._
 
 ## Question 5
 
@@ -62,7 +62,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+_If a is greater than 0 OR b is greater than 0, return a + b ; otherwise, return a - b. Condition 1 is not met, therefore return (0 - (-5)) = 5._
 
 ## Question 6
 
@@ -76,7 +76,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+_'a stick of butter'_
 
 ## Question 7
 
@@ -93,4 +93,4 @@ var teamMember = {
 
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+_teamMember['hobby'] = exercise; teamMember['name'] = {given: 'Jason', surname: 'Weeks'}; teamMember['name']['surname'] = Weeks_
