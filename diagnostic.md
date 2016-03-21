@@ -16,13 +16,14 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a website that connects many different people to files, and versions
+of these files, submitted through git, that they want to share with eachother.
 
 ## Question 3
 
@@ -32,7 +33,9 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+FALSE. First parentheses asks if either false or true are true. The answer is
+true. Second parentheses asks if both false and true are true. This is false.
+These two statements are then asked if they are both true, which is false.
 
 ## Question 4
 
@@ -45,7 +48,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+It runs three times. The values of x is then 8.
 
 ## Question 5
 
@@ -62,7 +65,10 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+-5 is the result. The if statement says if either a is greater than zero or if
+b is greater than zero, then it will return the sum of the two numbers,
+otherwise it will return the difference. In this case its returning the
+difference. But the result would be the same regardless in this situation....
 
 ## Question 6
 
@@ -76,7 +82,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -91,6 +97,9 @@ var teamMember = {
 };
 ```
 
-What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of `teamMember['name']['surname']`?
+What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
+`teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+'exercise'
+''{ given: 'Jason', surname: 'Weeks' }'
+'Weeks'
