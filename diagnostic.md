@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is version control system that allows users to edit branches without altering an original source.
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+False. Both sides of the expressions within parenthesis must evaluate to true in order for the whole statement to be true. Since (false && true) evaluates to false, this falsifies the encompassing expression.
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+3 times. The final value of x is 8.
 
 ## Question 5
 
@@ -60,9 +60,7 @@ var strangeAdd = function(a, b) {
 var result = strangeAdd(0, -5);
 ```
 
-What is the value of result?  Explain your answer.
-
-_Replace this text with your answer._
+result is 5. The first if statement is looking for either value to be greater than 0. Since neither 0 or -5 are, the function returns 0 - (-5), which evaluates to 5.
 
 ## Question 6
 
@@ -76,7 +74,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+the string 'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +92,4 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+The value of `teamMember['hobby']` is the string 'exercise'. The value of `teamMember['name']` is the array `['given', 'surname']`. The value of `teamMember['name']['surname']` is the string 'Weeks'.
