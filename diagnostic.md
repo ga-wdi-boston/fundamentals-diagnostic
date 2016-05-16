@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+Users/Grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is website that allows users to share and download code, track changes made to it, and make updates to existing code. It allows for multiple versions of the same project to exist in a concise, comprehensible manner that makes it clear who made which changes and when. Code can be downloaded and opened locally and then once changes are made, it can easily be shared and organized for any and all relevant parties to access on GitHub.
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+The value of this expression is `false`. The first expression evaluates as `true` as one is true. The second evaluates as `false` as it can only evaluate as `true` if both are `true`. This boils down to (true && false), which again, only evaluates as `true` if both values are `true` and thus evaluates to `false`.
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop runs three times. The value of `x` after the while loop is x + x. So after the first loop, x = 1 + 1 so 2, after the second, 2 + 2 so 4, after the third, 4 + 4 so 8 and then it stops because x > 5.
 
 ## Question 5
 
@@ -62,7 +62,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+The value of the result is `-5`. The first if expression says if a > 0 OR b > 0, then to return a + b. Since a = 0, only b > 0 satisfies and thus a + b is returned, meaning 0 + -5 is returned, which = -5. Since a return basically tells an expression to end immediately, the second return is not hit and not needed so the expression evaluates to -5.
 
 ## Question 6
 
@@ -76,7 +76,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+The value of `groceryList[2]` is `a container of milk`
 
 ## Question 7
 
@@ -94,4 +94,4 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+The value of 'teamMember['hobby']' is 'exercise'. the value of 'teamMember['name']' is '{given: 'Jason', surname: 'Weeks'}'. The value of 'teamMember['name']['surname']' is 'Weeks'.
