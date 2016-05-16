@@ -16,7 +16,11 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-/Users/mishaherscu/wdi/try
+I am not sure if we are thinking about Grace's experience or if this is
+example commands we are supposed to run. So the answer is probably either:
+
+This: /Users/grace/wdi/try
+Or: /Users/mishaherscu/wdi/try
 
 ## Question 2
 
