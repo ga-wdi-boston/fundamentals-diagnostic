@@ -110,7 +110,7 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-`teamMember['hobby']` has the value of 'exercise', which is a string.
-`teamMember['name']` has the value of name: {given: 'Jason', surname: 'Weeks'},
+`teamMember['hobby']` has the value of `'exercise'`, which is a string.
+`teamMember['name']` has the value of `{given: 'Jason', surname: 'Weeks'}`,
 which is an associative array.
-`teamMember['name']['surname']` has the value of 'Weeks', which is a string.
+`teamMember['name']['surname']` has the value of `'Weeks'`, which is a string.
