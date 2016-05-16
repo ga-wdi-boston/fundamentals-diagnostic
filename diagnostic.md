@@ -16,13 +16,24 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+I am not sure if we are thinking about Grace's experience or if this is
+example commands we are supposed to run. So the answer is probably either:
+
+This: /Users/grace/wdi/try
+Or: /Users/mishaherscu/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a website for coordinating usage of Git. Git is a version control
+software that tracks diffs between versions of files. GitHub allows people to
+post their files (mostly code) in repositories. It then lets other users,
+who are often their teammates, but could be anyone (unless it's private repo),
+fork their repository, clone it to their local computer, make changes, push
+those changes, and ultimately submit pull requests to get their changes
+merged back into the original source code. Git handles finding any conflicts
+while merging branches or just new changes from pull requests.
 
 ## Question 3
 
@@ -32,7 +43,10 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+This expression is false. The first section is an OR so it evaluates to true
+because it has a true. The second part is an AND so it evaluates to false
+because it has a false. The two sections are connected by an AND so the entire
+expressions is false because the second part is false.
 
 ## Question 4
 
@@ -45,7 +59,11 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop will run 3 times and x will have the value of 8 when the loop is
+finished running. The reason is that it doubles whenever the loop runs. The
+first run checks and 1 < 5 so x becomes 2. The next cycle checks 2 < 5 then
+x goes from 2 to 4. Then since 4 < 5, x becomes 8. Then since 8 > 5 the loop
+is done.
 
 ## Question 5
 
@@ -62,7 +80,8 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+The result is 5 because neither argument is greater than zero so we subtract
+b from a instead of adding them. 0 - (-5) = 5.
 
 ## Question 6
 
@@ -76,7 +95,8 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'. The only thing to remember here is that javascript
+indexes from zero.
 
 ## Question 7
 
@@ -94,4 +114,12 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+`teamMember['hobby']` has the value of `'exercise'`, which is a string.
+`teamMember['name']` has the value of `{given: 'Jason', surname: 'Weeks'}`,
+which is an associative array.
+`teamMember['name']['surname']` has the value of `'Weeks'`, which is a string.
+
+Hmm I hope this is right, but I feel like I may be missing something.
+However, rather than obsessively trying to get this right, I think it is
+better to just try something so I can fail fast and work from there.
+That is what Jeff would do (I think).
