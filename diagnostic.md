@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+It is a collection of git repositories located in the cloud.
 
 ## Question 3
 
@@ -32,7 +32,10 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+false.
+if one of the sides of an || equation is true, the whole thing is true, but if one of the sides of a && equation is false, the whole thing is false.
+so because (false || true) evaluates to true and (false && true) evaluates to false, the whole equation is true && false, which again evaluates to false.
+
 
 ## Question 4
 
@@ -45,7 +48,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+It runs three times, and the value of x afterwards is 8.
 
 ## Question 5
 
@@ -60,9 +63,8 @@ var strangeAdd = function(a, b) {
 var result = strangeAdd(0, -5);
 ```
 
-What is the value of result?  Explain your answer.
-
-_Replace this text with your answer._
+5
+Because a is given as 0, and thus not greater than 0, and b is -5, which is also not greater than 0, (a > 0 || b > 0) evaluates to false and the if statement will not run. So therefore, it runs a - b and 0 - (-5) = 5
 
 ## Question 6
 
@@ -76,7 +78,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +96,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+'exercise'
+{given: 'Jason', surname: 'Weeks'}
+'Weeks'
