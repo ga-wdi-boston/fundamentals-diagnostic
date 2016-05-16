@@ -114,3 +114,8 @@ What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']` has the value of `{given: 'Jason', surname: 'Weeks'}`,
 which is an associative array.
 `teamMember['name']['surname']` has the value of `'Weeks'`, which is a string.
+
+Hmm I hope this is right, but I feel like I may be missing something.
+However, rather than obsessively trying to get this right, I think it is
+better to just try something so I can fail fast and work from there.
+That is what Jeff would do (I think).
