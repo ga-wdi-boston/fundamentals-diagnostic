@@ -109,4 +109,4 @@ What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
   surname: 'Weeks'
 }
 
-'Weeks'
+'Weeks'.
