@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try/
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a respository (a folder in the cloud), that saves and keep trakes of your files. It's considerd a source code management system which works on top of Git.
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+In order to be true both expressions need to be true (&&). First expression evalustes to true since one of the exppression needs to be true ( || = or). The second one evaluates to false, so the whole thing is false.
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+Three times, x= 8
 
 ## Question 5
 
@@ -62,7 +62,9 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+no result is passed, since both expressions value to false. a is with 0 not
+bigger than 0 and b is with -5 not bigger than 0, so the if statement won't run,
+so no return will be passed.
 
 ## Question 6
 
@@ -76,7 +78,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter';
 
 ## Question 7
 
@@ -94,4 +96,8 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+```js
+teamMember['hobby']= 'exercise';
+teamMember['name']= { given: 'Jason', surname: 'Weeks' };
+teamMember['name']['surname']= {'Weeks'};
+```
