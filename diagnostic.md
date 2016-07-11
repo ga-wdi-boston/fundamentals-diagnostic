@@ -16,13 +16,15 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is an application that tracks your progress, saves your changes without
+interferring your previous work, and lets others use and improve your code.
+It is a colaboration platform.
 
 ## Question 3
 
@@ -32,7 +34,16 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+Logic operator && is only true if both expressions are true.
+
+Left side of the expression: logic operator || can give us false or true value;
+Right side of the expression: logic operator && gives us false value;
+
+false && false -> false;
+true && false -> false;
+
+The value of this expression is false.
+
 
 ## Question 4
 
@@ -45,7 +56,14 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+While loop runs four times.
+
+x= 1+1; x=2;
+x= 2+1; x=3;
+x= 3+1; x=4;
+x= 4+1; x=5;
+
+The value of x is 5.
 
 ## Question 5
 
@@ -62,7 +80,10 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+a > 0 || b > 0
+a isn't larger than 0. b isn't larger than 0. Return a-b.
+
+Result is 5.
 
 ## Question 6
 
@@ -76,7 +97,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+The value of groceryList[2] is "a stick of butter";
 
 ## Question 7
 
@@ -94,4 +115,14 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+
+The value of teamMember['hobby'] is "excercise";
+
+The value of teamMember['name'] is
+
+name: {
+  given: 'Jason',
+  surname: 'Weeks'
+},
+
+The value of teamMember['name']['surname'] is "Weeks";
