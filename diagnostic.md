@@ -16,13 +16,17 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+Github is a website that allows developers to:
+1) Keep track of changes they are making to their code in a given project
+2) Share that code with other developers
+3) Get code from other developers, copy it, and work on it themselves
+4) Work collaboratively with other developers on a single project, by creating multiple versions of the the same "master" and tracking changes made along the way on individual "branches"
 
 ## Question 3
 
@@ -32,7 +36,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+The expression is false because the first statement evaluates to true, but the last statement evaluates to false, because it uses the AND boolean, meaning both inputs (can't remember correct word) must be true for the entire statement to evaluate to true.
 
 ## Question 4
 
@@ -45,7 +49,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop runs 3 times and the final value of x is 8.
 
 ## Question 5
 
@@ -62,7 +66,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+I don't know the answer to this question.
 
 ## Question 6
 
@@ -76,7 +80,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+It is 'a stick of butter' because in JS array indexes are zero-based, meaning the first element is 0, the next is 1, and the next is 2, which is the 'butter' element listed in this example.
 
 ## Question 7
 
@@ -94,4 +98,5 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+I am not very confident about these answers but, in order:
+exercise; Jason Weeks; Jason Weeks Weeks
