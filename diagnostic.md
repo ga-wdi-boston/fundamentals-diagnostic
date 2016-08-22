@@ -16,13 +16,15 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/Graces/wdi/try
+
+This can be found by entering "pwd" into the terminal.
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a source control tool, which means it is useful for saving revision history and allowing people to work on multiple versions of code simultaneously and then merge their work later.  It can be used to save code in repositories which people can download their own versions of (forks) and suggest edits to the original code (pull requests).
 
 ## Question 3
 
@@ -32,7 +34,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+False.  The OR statement (||) on the left evaluates to true because only one condition must be true in order for the entire expression to evaluate to true.  The AND statement (&&) on the right evaluates to false, because both conditions must be true in order for the entire expression to evaluate to true.  The AND statement that combines both the OR and the AND statement returns false, because the first AND statement returned false.
 
 ## Question 4
 
@@ -45,7 +47,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop runs 3 times, and the value of x is 8 after the loop.
 
 ## Question 5
 
@@ -62,7 +64,13 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+The function strangeAdd takes two arguments, a and b.
+a is passed 0. 0 is equal to 0; this evaluates to false.
+b is passed -5. -5 is less than 0; this evaluates to false.
+Since both options of the OR statement are false, the expression evaluates to false, and a-b is returned.
+0 - (-5) = 5.
+
+result = -5.
 
 ## Question 6
 
@@ -76,7 +84,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+groceryList[2] is storing the string 'a stick of butter'.
 
 ## Question 7
 
@@ -94,4 +102,14 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+teamMember['hobby'] is 'exercise'
+
+teamMember['name'] is the associative array
+{
+  given: 'Jason',
+  surname: 'Weeks'
+}
+
+teamMember['name']['surname'] is 'Weeks'
+
+"Hi Chris!"
