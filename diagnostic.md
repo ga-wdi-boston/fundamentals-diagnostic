@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/try
 
 ## Question 2
 
-Describe GitHub, **briefly** in your own words.
+Describe GitHub, **briefly** in your own words
 
-_Replace this text with your answer._
+GitHub is an open source program for helping track changes in projects and files, allowing programmers to work collaboratively, publicly or privately, etc.
 
 ## Question 3
 
@@ -32,7 +32,9 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+(false || true) equates to 'true',
+(false && true) equates to 'false',
+true && false equates to 'false' - final value is 'false.'
 
 ## Question 4
 
@@ -45,7 +47,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop runs 4 times, with 4 being the value of 'x' after the while loop.
 
 ## Question 5
 
@@ -62,7 +64,8 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+returns a - b
+0 - -5 = 5
 
 ## Question 6
 
@@ -76,7 +79,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +97,4 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+No idea ¯\_(ツ)_/¯
