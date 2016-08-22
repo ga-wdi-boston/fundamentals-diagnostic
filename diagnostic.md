@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+_/Users/grace/wdi/try_
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+_A storage hub where code changes, and a record of those changes can be stored and accessed by  many people simultaneous, allowing for collaboration and easy revision_
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+_"false || true" is false, as it cannot be both at once. the "&&" requires both arguments to be true for the entire statement to be true. "_
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+_The loop runs three times, resulting in solutions of 2, 4 and terminating at 8. Once it reaches the third solution, 8, the loop ends having reached a solution greater than 5._
 
 ## Question 5
 
@@ -62,7 +62,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+_Because "b" has a value < 0, the argument in parentheese is false. As a result, we proceed to "a - b" which simplifies to "0 - (-5)" or "0 + 5." The result is 5. _
 
 ## Question 6
 
@@ -76,7 +76,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+_'groceryList[2] is 'a container of milk' as it is looking for the second item in the array titled 'groceryList.'_
 
 ## Question 7
 
@@ -94,4 +94,4 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+_'teamMember['hobby']' is 'exercise', 'teamMember['name'] is 'Jason Weeks' and 'teamMember['name']['surname'] is 'Weeks,' looking for the 'surname' portion of 'name.'
