@@ -14,9 +14,11 @@ Graces-MacBook-Pro:wdi grace$ cd try
 Graces-MacBook-Pro:try grace$
 ```
 
+Hi Chris!
+
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+Blah Blah BLah. I changed the files in my repo!!
 
 ## Question 2
 
