@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+Github is a cloud platform for storing, sharing and retrieving git repositories.
 
 ## Question 3
 
@@ -32,7 +32,9 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+'False'. The 'and' operator requires both values to be true for the entire
+statement to evaluate as true.  In this example the second statement is false,
+therefore the expression is false.
 
 ## Question 4
 
@@ -45,7 +47,8 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop will run 3 times.  X will equal 2, 4, and 8 after the first, second,
+and third loops, respectively.
 
 ## Question 5
 
@@ -62,7 +65,8 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+The value of the result will be 5.  Since neither 0 nor -5 are greater than 0,
+return a - b will run.  This will return (0 - (-5)) = 5.
 
 ## Question 6
 
@@ -76,7 +80,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +98,8 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+`teamMember['hobby']` --> 'exercise'
+`teamMember['name']` --> given: "Jason";
+                         surname: "Weeks"
+
+`teamMember['name']['surname']` --> "Weeks"
