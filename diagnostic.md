@@ -16,13 +16,15 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+Git is a version control tool that typically runs on a local machine. GitHub is
+a website that hosts git repositories, so they can be accessed from the
+internet rather than the local device.
 
 ## Question 3
 
@@ -32,7 +34,13 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+The value is false.
+
+```js
+(false || true) && (false && true);
+(true) && (false);
+false;
+```
 
 ## Question 4
 
@@ -45,7 +53,8 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop runs 3 times.
+x = 8 after loop terminates.
 
 ## Question 5
 
@@ -62,7 +71,8 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+The result is 5. Neither parameter is greater than 0, so the if statement does
+not run. The function returns (a - b), which is (0 - -5) = 5.
 
 ## Question 6
 
@@ -76,7 +86,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+The value is 'a stick of butter'.
 
 ## Question 7
 
@@ -94,4 +104,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+'exercise'
+[Jason, Weeks]
+'Weeks'
