@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a library where you can see/store projects. You can even clone other projects and try to improve on them. A useful part of GitHub is that when you commit changes you can see where you added or removed things or "Tracking changes".
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+the value is false because when you use && to compare them, they both have to be true to give you a "true" result.
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+the loop will run 3 times. the value will be 8.
 
 ## Question 5
 
@@ -62,7 +62,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+the result will be 5, the return a+b does not go through because neither is greater than 0.
 
 ## Question 6
 
@@ -76,7 +76,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+the value of groceryList[2] is 'a stick of butter'.
 
 ## Question 7
 
@@ -94,4 +94,4 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+the value of teamMember['hobby'] is 'exercise' and the value of teamMember['name'] is 'Jason','Weeks'.
