@@ -16,13 +16,14 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+Git is a program used for version control (eg - keeping track of changes you've made to code you've written).
+Github is a website where one can upload/review/share those gits and work on them with other people.
 
 ## Question 3
 
@@ -32,7 +33,12 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+'false'
+
+The statement on the left (false||true) evaluates to 'true', but the && means that
+both sides have to evaluate to the same thing in order for the full expression to evaluate
+to true. Since the statement on the right (false && true) evaluates to false, the entire expression
+therefore evaluates to false.
 
 ## Question 4
 
@@ -45,7 +51,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop will run 3 times. The final value of 'x' is 8.
 
 ## Question 5
 
@@ -62,7 +68,14 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+The result will end up being 5.
+
+Since neither a or b is greater than 0, the first if statement will not be executed.
+This brings us to the statement 'return a - b', or 'return 0 - -5'
+Since the rules of arithmetic state that subtracting a negative equates to adding
+(or something to that extent - i'm a little rusty on my exact terminology here),
+the statement evaluates to return 0 + 5, thus giving us postitive 5 as the final value.
+
 
 ## Question 6
 
@@ -76,7 +89,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +107,9 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+The value of teamMember['hobby'] is 'exercise'
+The value of teamMember['name'] is {'given': 'Jason', 'surname': 'Weeks'}
+The value of teamMember['name']['surname'] is 'Weeks'
+
+
+hiiiiii chris~
