@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+An online service for storing, sharing, and managing git project repositories allowing teams to work together on a single project without stepping all over eachother's work through the application of strong version control.
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+False, if you think of it like a punnet square false is a dominant trait when the comparator is 'and' while true is dominant when the comparator is 'or'. Since solving the brackets first makes the expression 'true && false' the answer must be false.
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+3 times with the final value of x being equal to 8.
 
 ## Question 5
 
@@ -62,7 +62,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+The final answer is 5. Since the values of neither a nor b in function "stangeAdd" are greater than 0 the returned value wll be 0 - -5 = 5.
 
 ## Question 6
 
@@ -76,7 +76,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+The value of `groceryList[2]` is "a stick of butter" as the indexes for an array start at 0 the 3 list item will have and index value of '2'.
 
 ## Question 7
 
@@ -94,4 +94,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+`teamMember['hobby']` = index of [2]
+`teamMember['name']` = index of [1]
+`teamMember['name']['surname']` = index of [1][1]
