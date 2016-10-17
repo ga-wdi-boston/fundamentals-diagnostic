@@ -32,7 +32,7 @@ GitHub is a place where you can push your code into a repository. This makes it 
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-The left side of the statement evaluates to (true) and the right side evaluates to (false) so then we are analyzing true && false which evaluates to false. It is asking is this statement true and false which evaluates to false because it is two separate things.
+The left side of the statement evaluates to (true) and the right side evaluates to (false) so then we are analyzing true && false which evaluates to false. It is asking is this statement is true and false which evaluates to false because it is two separate things.
 
 ## Question 4
 
