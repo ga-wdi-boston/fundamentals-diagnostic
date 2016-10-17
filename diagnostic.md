@@ -15,14 +15,12 @@ Graces-MacBook-Pro:try grace$
 ```
 
 What is the full path to the current directory?
-
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
-
-_Replace this text with your answer._
+GitHub is an online source management system using GIT. This is used to store code repositories and manage version control. Often used to manage the code for open source projects.
 
 ## Question 3
 
@@ -31,8 +29,12 @@ _Replace this text with your answer._
 ```
 
 Is the value of this expression `true` or `false`?  Explain your answer.
+FALSE.
+The || is the logical OR operator and the && is the logical AND operator.
+If false OR true...then true (logical operator).
+If false and true...then false.
+If true and false...then false.
 
-_Replace this text with your answer._
 
 ## Question 4
 
@@ -44,8 +46,11 @@ while (x < 5) {
 ```
 
 How many times does the loop run?  What's the value of `x` after the while loop?
+n1: x = 1 + 1 (2)
+n2: x = 2 + 2 (4)
+n3: x = 4 + 4 (8)
+This runs 3 times with a final result of 8.
 
-_Replace this text with your answer._
 
 ## Question 5
 
@@ -55,14 +60,15 @@ var strangeAdd = function(a, b) {
     return a + b;
   }
   return a - b;
-};
+}; 
 
 var result = strangeAdd(0, -5);
 ```
 
 What is the value of result?  Explain your answer.
-
-_Replace this text with your answer._
+if (0 > 0 OR -5 > 0)
+0 - - 5 = 5
+The parameters evaluate as FALSE and calculate a returned value of a-b (5).
 
 ## Question 6
 
@@ -75,8 +81,7 @@ var groceryList = [
 ```
 
 What is the value of `groceryList[2]`?
-
-_Replace this text with your answer._
+a stick of butter. Arrays are 0 based.
 
 ## Question 7
 
@@ -93,5 +98,6 @@ var teamMember = {
 
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
-
-_Replace this text with your answer._
+1) exercise
+2) Jason Weeks
+3) Jason Weeks, Weeks
