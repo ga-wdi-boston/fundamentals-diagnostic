@@ -78,7 +78,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-'a stick of butter' since it is the value in the 3rd index
+'a stick of butter' since it is the value in the 3rd index in the array.
 
 ## Question 7
 
