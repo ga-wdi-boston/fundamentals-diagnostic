@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+grace$/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+Github is a tool to store and organize git repositories.
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+false (The boolean logic operator && returns true if two "truthys" are on both the left and right-hand side of the expression. The boolean logic operator || evaluates to "true" if either the left or right-hand of the statement is "truthy". In this example, we first compare (false || true), which evaluates to a "truthy".  while (false && true) evaluates to a "falsey". Comparing both of these with && yields "truthy && "falsey", which evaluates to false.
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+3; 8
 
 ## Question 5
 
@@ -62,7 +62,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+5; In this "if...else" statement, the function is set up with the condition that if either a > 0 or b > 0, it evaluates to a "truthy" and should then perform "a + b". Otherwise, the function should evaluate to "a - b". In the example, the function is given the variables a=0 and b= -5. That means "a" is NOT greater than 0 nor is "b" greater than 0, the function evaluates to "a - b" or "(0 - (-5))"", which = 5. 
 
 ## Question 6
 
@@ -76,7 +76,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +94,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+'exercise'
+'Jason Weeks'
+Weeks
