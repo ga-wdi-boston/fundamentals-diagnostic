@@ -16,13 +16,14 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+_Graces-Macbook-Pro:wdi
+grace$ pwd_
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+_GitHub is a community site for programmers that have different versions of stored git files, allowing anyone to make edits to saved documents._
 
 ## Question 3
 
@@ -32,7 +33,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+_The value is false. after evaluating the expression on the right and determined the value true, then the expression on the left to be false and finally the result of both is false. _
 
 ## Question 4
 
@@ -45,7 +46,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+_The loop will run three times. The result of x is 4_
 
 ## Question 5
 
