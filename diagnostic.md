@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+~/wdi/diagnostics/fundamentals-diagnostic
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+It is an online server where you can save/store your work in stages. It also allows you to collaborate on a project with others.
 
 ## Question 3
 
@@ -32,7 +32,11 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+false || true = true
+false && true = false
+true && false = FALSE
+
+Answer = False
 
 ## Question 4
 
@@ -45,7 +49,15 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+1 < 5 (true)
+x = 2
+2 < 5 (true)
+x = 4
+4 < 5 (true)
+x = 8
+8 < 5 (false)
+
+Answer: x = 8
 
 ## Question 5
 
@@ -62,7 +74,19 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+if (0 > 0 || -5 > 0) {
+  return 0 + -5;
+}
+  return 0 - (-5);
+};
+
+(0 > 0) false
+(-5 > 0) false
+(false || false)
+If statment only runs if true so return a - b with run.
+0 - (-5) = 5
+
+Answer: results = 5
 
 ## Question 6
 
@@ -76,7 +100,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +118,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+'exercise'
+[given: 'Jason', surname: 'Weeks']
+'Weeks'
