@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+current direcory is try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+_git hub is a repository for projects that can be pulled and pushed by other coders
 
 ## Question 3
 
@@ -30,7 +30,7 @@ _Replace this text with your answer._
 (false || true) && (false && true);
 ```
 
-Is the value of this expression `true` or `false`?  Explain your answer.
+false statement, (false or true )and (false and true)
 
 _Replace this text with your answer._
 
@@ -42,10 +42,8 @@ while (x < 5) {
   x = x + x;
 }
 ```
+it will run twice x=2 then x=4
 
-How many times does the loop run?  What's the value of `x` after the while loop?
-
-_Replace this text with your answer._
 
 ## Question 5
 
@@ -61,8 +59,7 @@ var result = strangeAdd(0, -5);
 ```
 
 What is the value of result?  Explain your answer.
-
-_Replace this text with your answer._
+if a is less than zero or b greater than zero the answer will be a + b if not the answer will be a - b
 
 ## Question 6
 
@@ -76,8 +73,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
-
+_stick of butter
 ## Question 7
 
 ```js
@@ -94,4 +90,4 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+teamMember.name.given.surname = jason weeks  teamMemeber.hobby = exercize
