@@ -15,14 +15,16 @@ Graces-MacBook-Pro:try grace$
 ```
 
 What is the full path to the current directory?
+Graces-MacBook-Pro:wdi grace$ pwd
+/Users/grace/wdi
 
-_Replace this text with your answer._
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is the online repository for Git. Git is the version control system in
+allows developers to create their changes to their codes.  
 
 ## Question 3
 
@@ -32,7 +34,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+True
 
 ## Question 4
 
