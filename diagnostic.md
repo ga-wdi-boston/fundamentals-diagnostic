@@ -16,13 +16,14 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/Gabrakadabra/wdi/diagnostics/fundamentals-diagnostic
+~/wdi/diagnostics/fundamentals-diagnostic
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+Github is an online server that connects my computer to the web and allows me to make/edit files on my computer and then change them on my server connected to the Github server
 
 ## Question 3
 
@@ -32,7 +33,8 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+'false'
+because the first is false in each statement
 
 ## Question 4
 
@@ -45,7 +47,8 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+runs 3 times
+x=8
 
 ## Question 5
 
@@ -62,7 +65,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+undefined because b = -5 which doesn't make sense to the console since b > 0
 
 ## Question 6
 
@@ -76,7 +79,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +97,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+'temMember['hobby']' = 'exercise'
+'teamMember['name']' = 'Jason'
+'teamMember'['name']['surname'] = 'Weeks'
