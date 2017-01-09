@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+wdi grace try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+It is an open source program that allows me to track changes to files.
 
 ## Question 3
 
@@ -32,8 +32,8 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
 
+False- with && both expressions need to result in true to have a true result.
 ## Question 4
 
 ```js
@@ -45,8 +45,8 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
-
+It loops 4 times
+value is 4
 ## Question 5
 
 ```js
@@ -62,8 +62,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
-
+Once I input the values (0, -5), it goes thtough the first statement and is false; becuase a is not > 0 then goes to the second statement and is false as well.
 ## Question 6
 
 ```js
@@ -76,8 +75,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
-
+a stick of butter
 ## Question 7
 
 ```js
@@ -94,4 +92,4 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+exercise
