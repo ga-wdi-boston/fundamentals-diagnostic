@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is tool that allows developers to store versions of their code on the cloud as they are creating it. It is similar to Dropbox where developers can store iterations of a project on the cloud for others to look at and contribute code on various projects.
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+The value  of this expression is 'false'. The expression on the left resolves to 'true', while the expression on the left resolves to false. The resulting expression is (true && false) which resolves to false. This is because in order to be true both must be true since the expression is using an && operator.
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+This loop runs 3 times. The value of x after the loop resolves is 8.
 
 ## Question 5
 
@@ -62,7 +62,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+the value of the result is 5. The two values inputed into the strangeAdd function do not trigger the 'if' conditional because the conditional resolves to false when the value of a and b is 0 or less. This then triggers the final return which calculates the difference between the two variables.
 
 ## Question 6
 
@@ -76,7 +76,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter
 
 ## Question 7
 
@@ -94,4 +94,4 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+teamMember['hobby'] = 'exercise', teammember['name'] = {given: 'Jason', surname: 'Weeks'}, the last one = 'exercise'
