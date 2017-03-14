@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is an online repository for code that allows multiple people to work on the same project and control the version of the code that is published
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+False.  (false || true) evaluates to TRUE.  It must also be the same as (false && true), which evaluates to FALSE because we are using an AND comparison operator.  So, we would be comparing TRUE to FALSE, and that is incorrect.
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+3 times
 
 ## Question 5
 
@@ -62,7 +62,8 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+result = 5;
+We pass a = 0 and b = -5.  The condition if (a > 0 || b > 0) is FALSE because neither 0 nor -5 is greater than 0, so we evaluate (0 -(-5)), which is 5.
 
 ## Question 6
 
@@ -76,7 +77,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+groceryList[2] = 'a stick of butter';
 
 ## Question 7
 
@@ -94,4 +95,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+teamMember['hobby'] = {'exercise'};
+teamMember['name'] = {given: 'Jason', surname: 'Weeks'};
+teamMember['name']['surname'] = {'Weeks'};
