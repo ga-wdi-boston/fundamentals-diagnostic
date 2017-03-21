@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+A versionig and code repository. Used to organize, store, and collaborate on code bases.
 
 ## Question 3
 
@@ -32,7 +32,9 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+(true or false = true) and (false and true = false)
+translate to true and false wich is false
+This statement evaluates to false
 
 ## Question 4
 
@@ -45,7 +47,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+2 times value of x is 4
 
 ## Question 5
 
@@ -62,7 +64,8 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+Nither value is greater than 0 thus a-b = 5.
+Result is 5.
 
 ## Question 6
 
@@ -76,7 +79,8 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter' is the value of `groceryList[2]`
+0 is counted in arrays.
 
 ## Question 7
 
@@ -94,4 +98,14 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+`teamMember['hobby']` = 'exercise'
+`teamMember['name']` = [object Object] {
+  given: "Jason",
+  surname: "Weeks"
+}
+`teamMember['name']['surname']` =[object Object] {
+  given: "Jason",
+  surname: "Weeks"
+  }
+  "Weeks"
+''
