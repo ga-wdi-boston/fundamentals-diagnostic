@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a source code version control repository.
 
 ## Question 3
 
@@ -30,9 +30,7 @@ _Replace this text with your answer._
 (false || true) && (false && true);
 ```
 
-Is the value of this expression `true` or `false`?  Explain your answer.
-
-_Replace this text with your answer._
+The value of the expression is false. The reason for tis is that (false || true) translates to "false or true", which evaluates to true.  (false && true) translates to false and true, which evaluates to false.  This leaves us with true && false, which evaluates to false.
 
 ## Question 4
 
@@ -45,7 +43,8 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+
+The loop runs 3 times.  The value of 'x' after the while loop is 4.
 
 ## Question 5
 
@@ -60,9 +59,8 @@ var strangeAdd = function(a, b) {
 var result = strangeAdd(0, -5);
 ```
 
-What is the value of result?  Explain your answer.
+The value of result is 5.  The first path  (return a + b) would be taken if a or b is greater than 0.  However, neither a nor b are greater than 0, so the second path (return a - b) is taken.  Since the value of a is 0 and the value of b is -5, this translates to 0 minus -5, which equals 5.
 
-_Replace this text with your answer._
 
 ## Question 6
 
@@ -76,7 +74,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +92,4 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+The above does not appear to be a valid expression.  For example, if we wanted to know the value of "role", the expression would be "teamMember.role;"  The expression as written above would not return a value.
