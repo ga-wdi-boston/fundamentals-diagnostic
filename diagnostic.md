@@ -15,14 +15,14 @@ Graces-MacBook-Pro:try grace$
 ```
 
 What is the full path to the current directory?
+/Users/grace/wdi/try
 
-_Replace this text with your answer._
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+It is an online version control repository for files and code. Developers can use it to store projects, upload, update, and download code repositories.
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+False - You would first evaluate (false || true). In this case, with the OR operator, you return the first truthy value. In this case, it would be the second value "true". Then you evaluate the second portion (false && true). With the AND operator, you return the first falsey value which is the first value of "false". Next, you compare the (true) from the first parenthesis with the AND operator and the (false) from the second parenthesis. In this case, you would return the first falsey value which gives you a final value of 'false'.
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+It runs 3 times. The value of x after the while loop is 8.
 
 ## Question 5
 
@@ -62,7 +62,9 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+var result = 5
+
+When running the function, you will first look at the first "if" statement with the OR operator. In this case, a=0. As a result, a is not greater than 0. You will then look at the second part. b = -5. As a result, b is not greater than 0. Given the condition in the if statement doesn't apply, you go to the second part of the function. You would return a-b. Which is: 0- -5 = 5.
 
 ## Question 6
 
@@ -76,7 +78,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+groceryList[2] = 'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +96,8 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+teamMember['hobby'] = 'exercise'
+teamMember['name'] = {
+          given: 'Jason',
+          surname: 'Weeks'}
+teamMember['name']['surname'] = 'Weeks'
