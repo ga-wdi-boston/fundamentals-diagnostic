@@ -16,13 +16,14 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+Much like Dropbox, GitHub is a platform used to manage Git repositories. It is
+basically a shared repository for developers to share and manage code.
 
 ## Question 3
 
@@ -32,7 +33,10 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+(false || true) = true, and (false && true)= false
+false && true = false
+Since the first expression equates to true and the second to false; the final
+outcome would be false.
 
 ## Question 4
 
@@ -45,7 +49,11 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+Loop instances:
+1st= x=1+1; x = 2
+2nd= x=2+2; x=4
+3rd= x=4+4; x=8
+Answer= 3 times, x=8
 
 ## Question 5
 
@@ -60,9 +68,14 @@ var strangeAdd = function(a, b) {
 var result = strangeAdd(0, -5);
 ```
 
-What is the value of result?  Explain your answer.
-
-_Replace this text with your answer._
+var strangeAdd = function(0, -5) {
+  if (a > 0 || b > 0) {
+    return a + b;
+  }
+  return a - b;
+};
+return a-b; 0- (-5); 0+5;
+return 5;
 
 ## Question 6
 
@@ -76,7 +89,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+groceryList[2]= 'a stick of butter';
 
 ## Question 7
 
@@ -94,4 +107,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+`teamMember['hobby']`= 'exercise'
+`teamMember['name']`='Jason'
+`teamMember['name']['surname']`='Jason''Weeks'
