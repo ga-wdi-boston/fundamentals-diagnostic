@@ -16,23 +16,24 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is an online repository that allows users to store, share, and comment on each others code.
 
 ## Question 3
 
 ```js
 (false || true) && (false && true);
 ```
-
 Is the value of this expression `true` or `false`?  Explain your answer.
-
-_Replace this text with your answer._
+False;
+(false || true) = T
+(false && true) = F
+T && F = F
 
 ## Question 4
 
@@ -44,8 +45,12 @@ while (x < 5) {
 ```
 
 How many times does the loop run?  What's the value of `x` after the while loop?
+value of x = 8, loop runs 3 times
 
-_Replace this text with your answer._
+-evaluate X<5 (x=1);
+-if it is true that x<5, add x to x and assign x that new value;
+-evaluate that the new value of x is less than 5;
+-do this until X<5 is flase;
 
 ## Question 5
 
@@ -59,10 +64,13 @@ var strangeAdd = function(a, b) {
 
 var result = strangeAdd(0, -5);
 ```
-
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+The answer is 5.
+
+var result(strangeAdd) passes the values 0 and -5 to the strangeAdd function.
+the given values return a false in the if statement.
+a-b (0-(-5))=5
 
 ## Question 6
 
@@ -76,7 +84,10 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+"a stick of butter"
+
+groceryList[2] is asking for the third item in the array because items in an array are counted starting with 0
+
 
 ## Question 7
 
@@ -94,4 +105,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+None of these will return a value. use the dot notation
+to determine hobby use 'teamMember.hobby'
+to determine name use 'teamMember.name'
