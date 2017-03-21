@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a platform where you can manage git repositories, create push and pull code, and share feedback with other developers.
 
 ## Question 3
 
@@ -32,7 +32,10 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+Answer: FALSE;
+First parenthesis is TRUE because it takes the first truthy value.
+Second parenthesis is FALSE because it takes the first falsey value.
+When you compare the two parenthesis with AND, it takes the first falsey value again, so the answer is FALSE.
 
 ## Question 4
 
@@ -45,7 +48,10 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop only runs twice. The final value of x is 4.
+Loop 1 has x = 1 + 1; which equals 2.
+Loop 2 has x = 2 + 2; which equals 4.
+It does not run a third time because x is not less than 5.
 
 ## Question 5
 
@@ -62,7 +68,8 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+Both variables a and b are not greater than 0, so we must return a - b. 0 - (-5) is 5.
+Answer: 5.
 
 ## Question 6
 
@@ -76,7 +83,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+Easy. groceryList[2] is 'a stick of butter' because the first item on the list is groceryList[0].
 
 ## Question 7
 
@@ -94,4 +101,8 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+teamMember['hobby'] is exercise.
+teamMember['name'] will return objects:
+        given: "Jason",
+        surname: "Weeks"
+teamMember['name']['surname'] is Weeks.
