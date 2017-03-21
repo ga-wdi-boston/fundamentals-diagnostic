@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a cloud repository used for storing code. This platform allows developers to share, review, and comment on code.
 
 ## Question 3
 
@@ -32,7 +32,11 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+false || true --> true
+false && true --> false
+true && false --> false
+Value of this expression is false because evaluating the individual expressions results in true and false therefore it is false.
+
 
 ## Question 4
 
@@ -45,7 +49,12 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop will run 3 times.
+First loop x = 2
+Second loop x = 4
+Third loop x = 8
+Will not run a 4th time because x greater than 5.
+
 
 ## Question 5
 
@@ -62,7 +71,10 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+result = 5
+(0 > 0) false
+(-5 > 0) false
+0 - (-5) = 5
 
 ## Question 6
 
@@ -76,7 +88,8 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+groceryList[2] = "a stick of butter"
+Arrays are indexed starting with 0 so the first item in an array has an index of 0, the second item is 1, and the third item is 2.
 
 ## Question 7
 
@@ -94,4 +107,9 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+teamMember['hobby'] = 'exercise'
+teamMember['name'] = [object Object] {
+  given: "Jason",
+  surname: "Weeks"
+}
+teamMember['name']['surname]= 'Weeks'
