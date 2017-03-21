@@ -16,23 +16,25 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a source control application where developers can check in code to a shared enviornment(s).
 
 ## Question 3
 
 ```js
+
 (false || true) && (false && true);
 ```
 
 Is the value of this expression `true` or `false`?  Explain your answer.
-
-_Replace this text with your answer._
+False
+(false or true) and (false and true)
+ The && checks to make sure both values are identical in type and value
 
 ## Question 4
 
@@ -45,7 +47,8 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+The loop will run three time.
+The value of x will be 8 after the last run.
 
 ## Question 5
 
@@ -62,7 +65,8 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+The answer will be 0 - -5 = 5
+The starting value of a is equal to, not greater than 0 and the starting value of b is less than, not greater than 0, so the second return statement will be returned.
 
 ## Question 6
 
@@ -76,7 +80,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+a stick of butter
 
 ## Question 7
 
@@ -94,4 +98,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+exercise
+Jason
+JasonWeeks
