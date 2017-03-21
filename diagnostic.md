@@ -16,7 +16,7 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-/Users/grace/wdi
+/Users/grace/wdi/try
 
 ## Question 2
 
