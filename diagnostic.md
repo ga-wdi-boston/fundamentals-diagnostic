@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+~/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a website that allows users to track changes in their code by keeping track of commits which create copies of their code.  This allows the user to see different versions of their code and create a tidy and organized file.  The main benefit is the ability to track changes and to rewind to any point in the creation process of the file.
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+False.  The first expression in parentheses evaluates to true because true OR false evaluates to true and the second expression in parentheses evaluates to false because true AND false evaluates to false.  The overall expression true AND false therefore evaluates to false.
 
 ## Question 4
 
@@ -45,7 +45,11 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+1. x = 1
+2. x = 2
+3. x = 4
+
+The loop runs 3 times.
 
 ## Question 5
 
@@ -62,7 +66,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+a = 0 and b = -5, so the else clause runs.  0 - (-5) = 5, so the value of result is 5.
 
 ## Question 6
 
@@ -76,7 +80,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+The value of groceryList[2] is 'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +98,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+teamMember['hobby'] = 'exercise'
+teamMember['name'] = 'Jason' + 'Weeks'
+teamMember['name']['surname'] = 'Weeks'
