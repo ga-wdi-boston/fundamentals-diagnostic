@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GITHUB IS NOT GIT. That aside, it is an online open source community where people can share code and also collaborate. For most people, it is used at the storage for all their versions of there code as well as collaborative space where a team can make ammendments or peer review  code.
 
 ## Question 3
 
@@ -32,7 +32,9 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+'FALSE', for something to be true it need to be complete true at least in once instance of an operation. (false || TRUE) Qualified the left side && as true BUT on the right side it is both (false && TRUE) Which means it is definitively false as well as true. so with a false on one side of the operator(&&) it cant be true.
+
+Also I put the statement in the broswer console and got the answer. So yea...
 
 ## Question 4
 
@@ -45,8 +47,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
-
+The loop runs 3 times, and the value of x is 8
 ## Question 5
 
 ```js
@@ -62,7 +63,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+-5
 
 ## Question 6
 
@@ -76,7 +77,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+a stick of butter
 
 ## Question 7
 
@@ -94,4 +95,4 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+exercise, [Jason, Weeks], Weeks
