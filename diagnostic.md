@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+Git is where codes can be stored and shared.
 
 ## Question 3
 
@@ -32,7 +32,10 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+The first parantheses is uses "||" which is either true or false will have the
+answer true and the second part outcome will be false because of "&&". Symbol
+"&&" comparison for an true outcome both parts need to be ture. Finally restul
+will be false becasue first entry of "&&" is true and second is false.
 
 ## Question 4
 
@@ -45,7 +48,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+It runs 4 times and x is 8 after the while loop.
 
 ## Question 5
 
@@ -62,7 +65,9 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+This function will be runing the second part of the "if" equation, because
+neither a or b is bigger then 0. AS a result of this it will be returning a-b
+which is (0-(-5)) and the reult will be 5.
 
 ## Question 6
 
@@ -76,7 +81,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+it is   'a stick of butter',
 
 ## Question 7
 
@@ -94,4 +99,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+1-exercise"
+2-Jason Weeks
+3-weeks
