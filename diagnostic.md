@@ -15,15 +15,13 @@ Graces-MacBook-Pro:try grace$
 ```
 
 What is the full path to the current directory?
-
-_Replace this text with your answer._
+/users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
-
+GitHub is an open source "cloud" that allows deveplopers to save different versions of their code. As well as provides the ability to collaborate on code and share with other users.
 ## Question 3
 
 ```js
@@ -32,7 +30,8 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+False. The expression is evaluating/comparing 2 different operators.
+
 
 ## Question 4
 
@@ -45,7 +44,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+It would run 4 times.
 
 ## Question 5
 
