@@ -16,13 +16,13 @@ Graces-MacBook-Pro:try grace$
 
 What is the full path to the current directory?
 
-_Replace this text with your answer._
+/Users/grace/wdi/try
 
 ## Question 2
 
 Describe GitHub, **briefly** in your own words.
 
-_Replace this text with your answer._
+GitHub is a tool that allows multiple people to work on a web development project and is an efficient way to complete the project.  It enables a developer to keep track of changes made to a web app and allows the web app owner to accept or deny changes made by others.
 
 ## Question 3
 
@@ -32,7 +32,7 @@ _Replace this text with your answer._
 
 Is the value of this expression `true` or `false`?  Explain your answer.
 
-_Replace this text with your answer._
+false
 
 ## Question 4
 
@@ -45,7 +45,7 @@ while (x < 5) {
 
 How many times does the loop run?  What's the value of `x` after the while loop?
 
-_Replace this text with your answer._
+4 times
 
 ## Question 5
 
@@ -62,7 +62,7 @@ var result = strangeAdd(0, -5);
 
 What is the value of result?  Explain your answer.
 
-_Replace this text with your answer._
+The answer is 5 (a - b or 0 - (-5) ).  The answer is obtained by recognizing that the if statement is false.  That is, neither 0, nor -5 is strictly greater than 0. Therefore, you do not complete the return value within the if statement.
 
 ## Question 6
 
@@ -76,7 +76,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-_Replace this text with your answer._
+'a stick of butter'
 
 ## Question 7
 
@@ -94,4 +94,6 @@ var teamMember = {
 What is the value of `teamMember['hobby']`?  Of `teamMember['name']`?  Of
 `teamMember['name']['surname']`?
 
-_Replace this text with your answer._
+'teamMember'['hobby']' is 'exercise'
+'teamMember['name']'? is an error because you do not specify if you are referring to the "given" or "surname"
+`teamMember['name']['surname']`? is 'Weeks';
