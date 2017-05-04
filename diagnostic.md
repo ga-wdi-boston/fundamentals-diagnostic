@@ -76,7 +76,7 @@ var groceryList = [
 
 What is the value of `groceryList[2]`?
 
-'a stick of butter'
+'a stick of butter' 
 
 ## Question 7
 
